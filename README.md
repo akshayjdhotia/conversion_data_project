@@ -107,3 +107,7 @@ The script will sequentially:
 - The page ID `4903628644844587131` in Task B is hardcoded. Update `cal_conversion_by_page()` to accept it as a parameter for more flexible use.
 - Database connections are opened per function. Consider refactoring to share a single connection for efficiency.
 - The output file path uses a Windows-style backslash (`output_files\...`). Update to `os.path.join()` for cross-platform compatibility.
+
+---
+
+© 2020 Conversion Data Analyzer · Apr 6, 2020
